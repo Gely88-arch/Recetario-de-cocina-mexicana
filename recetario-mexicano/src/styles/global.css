@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap");
+
+/* ===== 1. Variables ===== */
+:root {
+  --agave: #1f4d3a;
+  --chile: #c8372d;
+  --chile-oscuro: #a52a21;
+  --maiz: #f2b632;
+  --talavera: #2a5c9a;
+  --fondo: #f4f6f1;
+  --tinta: #19261f;
+  --tinta-suave: #4d5d54;
+  --blanco: #ffffff;
+  --borde: #d9dfd5;
+  --radio: 10px;
+  --fuente-titulo: "Bricolage Grotesque", system-ui, sans-serif;
+  --fuente-texto: "Figtree", system-ui, sans-serif;
+}
+
+/* ===== 2. Base ===== */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fuente-texto);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--tinta);
+  background: var(--fondo);
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulo);
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+  color: var(--agave);
+}
+h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; }
+h2 { font-size: 1.6rem; font-weight: 700; }
+h3 { font-size: 1.25rem; font-weight: 700; }
+
+a { color: var(--talavera); }
+img { max-width: 100%; display: block; }
+
+:focus-visible { outline: 3px solid var(--maiz); outline-offset: 2px; }
+
+.contenedor { width: min(1100px, 100% - 2rem); margin-inline: auto; }
+main.contenedor { padding-block: 2rem 4rem; min-height: 70vh; }
+
+/* ===== 3. Encabezado y navegación ===== */
+.encabezado { background: var(--agave); }
+
+.banderines {
+  height: 22px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='22'><polygon points='0,0 32,0 16,22' fill='%23c8372d'/><polygon points='32,0 64,0 48,22' fill='%23f2b632'/><polygon points='64,0 96,0 80,22' fill='%232a5c9a'/><polygon points='96,0 128,0 112,22' fill='%23d9477a'/><polygon points='128,0 160,0 144,22' fill='%23f4f6f1'/></svg>");
+  background-repeat: repeat-x;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-block: 0.9rem;
+}
+
+.logo {
+  font-family: var(--fuente-titulo);
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+.menu { display: flex; gap: 0.25rem; list-style: none; margin: 0; padding: 0; }
+
+.menu a {
+  display: block;
+  padding: 0.4rem 0.9rem;
+  color: #dbe7df;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 999px;
+  transition: background-color 0.2s, color 0.2s;
+}
+.menu a:hover { background: rgba(255, 255, 255, 0.14); color: var(--blanco); }
+.menu a.active { background: var(--maiz); color: var(--tinta); }
+
+/* ===== 4. Hero y filtros ===== */
+.hero { padding-block: 1rem 2rem; max-width: 40rem; }
+.hero p { font-size: 1.2rem; color: var(--tinta-suave); margin: 0; }
+
+.filtros { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.75rem; }
+
+.filtros input,
+.filtros select {
+  font: inherit;
+  padding: 0.6rem 0.9rem;
+  border: 1.5px solid var(--borde);
+  border-radius: var(--radio);
+  background: var(--blanco);
+  color: var(--tinta);
+}
+.filtros input { flex: 1 1 14rem; }
+.filtros input:focus, .filtros select:focus { border-color: var(--agave); outline: none; box-shadow: 0 0 0 3px rgba(31, 77, 58, 0.2); }
+
+/* ===== 5. Lista y tarjetas ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.card:hover { transform: translateY(-4px); border-color: var(--agave); }
+
+.card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #e4e8e0; }
+
+.card-cuerpo { display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem; padding: 1rem 1.1rem 1.2rem; flex: 1; }
+.card-cuerpo h3 { margin: 0; }
+.card .meta { margin: 0 0 0.6rem; color: var(--tinta-suave); font-size: 0.95rem; }
+.card .boton { margin-top: auto; }
+
+.etiqueta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--tinta);
+  background: var(--maiz);
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+}
+
+/* ===== 6. Botones ===== */
+.boton {
+  display: inline-block;
+  font: inherit;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  background: var(--chile);
+  color: var(--blanco);
+  border: none;
+  border-radius: var(--radio);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.boton:hover { background: var(--chile-oscuro); }
+
+/* ===== 7. Detalle ===== */
+.detalle { max-width: 860px; margin-inline: auto; }
+.volver { display: inline-block; margin-bottom: 1rem; font-weight: 600; }
+.descripcion { font-size: 1.2rem; color: var(--tinta-suave); max-width: 40rem; }
+
+.detalle-img {
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+  border-radius: var(--radio);
+  margin-block: 1rem 1.5rem;
+  background: #e4e8e0;
+}
+
+.datos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+.datos div { background: var(--blanco); border: 1px solid var(--borde); border-radius: var(--radio); padding: 0.7rem 0.9rem; }
+.datos dt { font-size: 0.85rem; color: var(--tinta-suave); }
+.datos dd { margin: 0; font-weight: 600; }
+
+.detalle-columnas { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+
+.ingredientes { padding-left: 1.2rem; }
+.ingredientes li::marker { color: var(--chile); }
+.pasos { padding-left: 1.4rem; }
+.pasos li { margin-bottom: 0.8rem; padding-left: 0.3rem; }
+.pasos li::marker { color: var(--agave); font-weight: 700; }
+
+/* ===== 8. Estados y páginas de texto ===== */
+.estado { text-align: center; padding: 4rem 1rem; }
+.estado p { color: var(--tinta-suave); }
+.estado.error h2 { color: var(--chile); }
+.detalle-tecnico { font-size: 0.85rem; }
+.vacio { text-align: center; padding: 2rem 0; color: var(--tinta-suave); }
+
+.spinner {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border: 5px solid var(--borde);
+  border-top-color: var(--chile);
+  border-radius: 50%;
+  animation: girar 0.8s linear infinite;
+}
+@keyframes girar { to { transform: rotate(360deg); } }
+
+.pagina-texto { max-width: 42rem; }
+.pagina-texto li { margin-bottom: 0.4rem; }
+
+.pie { text-align: center; padding: 1.5rem 1rem; background: var(--agave); color: #dbe7df; font-size: 0.95rem; }
+.pie p { margin: 0; }
+
+/* ===== 9. Responsivo ===== */
+@media (min-width: 720px) {
+  .detalle-columnas { grid-template-columns: 1fr 1.4fr; }
+}
+
+@media (max-width: 480px) {
+  .navbar { justify-content: center; }
+  .menu a { padding: 0.35rem 0.7rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation-duration: 2s !important; }
+}
