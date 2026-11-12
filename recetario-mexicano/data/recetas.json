@@ -3,195 +3,373 @@
     "id": 1,
     "nombre": "Tacos al pastor",
     "descripcion": "Carne de cerdo marinada con achiote y chiles, cocida en trompo y servida con piña, cebolla y cilantro.",
-    "imagen": "https://loremflickr.com/800/600/tacos?lock=1",
+    "imagen": "/imagenes/Tacos%20al%20Pastor%20.jpg",
     "region": "Ciudad de México",
     "categoria": "Antojitos",
     "tiempo_preparacion": 90,
     "dificultad": "Media",
     "porciones": 6,
-    "ingredientes": ["1 kg de cabeza de lomo de cerdo", "3 chiles guajillo", "2 cucharadas de achiote", "1/2 piña", "Tortillas de maíz", "Cebolla y cilantro"],
-    "pasos": ["Licúa los chiles, el achiote, vinagre y especias para hacer el adobo.", "Marina la carne en filetes delgados por al menos 4 horas.", "Cocina la carne en sartén caliente hasta dorar.", "Sirve en tortillas con piña asada, cebolla y cilantro."]
+    "ingredientes": [
+      "1 kg de cabeza de lomo de cerdo",
+      "3 chiles guajillo",
+      "2 cucharadas de achiote",
+      "1/2 piña",
+      "Tortillas de maíz",
+      "Cebolla y cilantro"
+    ],
+    "pasos": [
+      "Licúa los chiles, el achiote, vinagre y especias para hacer el adobo.",
+      "Marina la carne en filetes delgados por al menos 4 horas.",
+      "Cocina la carne en sartén caliente hasta dorar.",
+      "Sirve en tortillas con piña asada, cebolla y cilantro."
+    ]
   },
   {
     "id": 2,
     "nombre": "Pozole rojo",
     "descripcion": "Caldo de maíz cacahuazintle con carne de cerdo y chiles guajillo, acompañado de lechuga, rábano y limón.",
-    "imagen": "https://loremflickr.com/800/600/soup?lock=2",
+    "imagen": "/imagenes/pozole-rojo-1.jpg",
     "region": "Jalisco",
     "categoria": "Sopas y caldos",
     "tiempo_preparacion": 180,
     "dificultad": "Media",
     "porciones": 8,
-    "ingredientes": ["1 kg de maíz cacahuazintle", "1 kg de carne de cerdo", "5 chiles guajillo", "2 chiles ancho", "Ajo y cebolla", "Lechuga, rábano y orégano"],
-    "pasos": ["Cuece el maíz hasta que abra, unas 2 horas.", "Agrega la carne con ajo y cebolla y cocina hasta que suavice.", "Licúa los chiles remojados y añádelos al caldo.", "Hierve 20 minutos y sirve con los acompañamientos."]
+    "ingredientes": [
+      "1 kg de maíz cacahuazintle",
+      "1 kg de carne de cerdo",
+      "5 chiles guajillo",
+      "2 chiles ancho",
+      "Ajo y cebolla",
+      "Lechuga, rábano y orégano"
+    ],
+    "pasos": [
+      "Cuece el maíz hasta que abra, unas 2 horas.",
+      "Agrega la carne con ajo y cebolla y cocina hasta que suavice.",
+      "Licúa los chiles remojados y añádelos al caldo.",
+      "Hierve 20 minutos y sirve con los acompañamientos."
+    ]
   },
   {
     "id": 3,
     "nombre": "Chilaquiles verdes",
     "descripcion": "Totopos bañados en salsa verde con crema, queso fresco y cebolla. Un desayuno clásico.",
-    "imagen": "https://loremflickr.com/800/600/breakfast?lock=3",
+    "imagen": "/imagenes/images.jpg",
     "region": "Centro del país",
     "categoria": "Desayunos",
     "tiempo_preparacion": 30,
     "dificultad": "Fácil",
     "porciones": 3,
-    "ingredientes": ["300 g de totopos", "500 g de tomatillo", "2 chiles serranos", "Cilantro", "Crema y queso fresco", "Cebolla"],
-    "pasos": ["Hierve los tomatillos con los chiles y licúalos con cilantro.", "Fríe la salsa en una sartén con un poco de aceite.", "Añade los totopos y mezcla 1 minuto.", "Sirve con crema, queso y cebolla."]
+    "ingredientes": [
+      "300 g de totopos",
+      "500 g de tomatillo",
+      "2 chiles serranos",
+      "Cilantro",
+      "Crema y queso fresco",
+      "Cebolla"
+    ],
+    "pasos": [
+      "Hierve los tomatillos con los chiles y licúalos con cilantro.",
+      "Fríe la salsa en una sartén con un poco de aceite.",
+      "Añade los totopos y mezcla 1 minuto.",
+      "Sirve con crema, queso y cebolla."
+    ]
   },
   {
     "id": 4,
     "nombre": "Mole poblano",
     "descripcion": "Salsa espesa de chiles, especias, nueces y chocolate que acompaña al pollo. Un platillo de fiesta.",
-    "imagen": "https://loremflickr.com/800/600/chicken?lock=4",
+    "imagen": "/imagenes/Mole.webp",
     "region": "Puebla",
     "categoria": "Platos fuertes",
     "tiempo_preparacion": 150,
     "dificultad": "Difícil",
     "porciones": 8,
-    "ingredientes": ["1 pollo en piezas", "4 chiles mulato", "4 chiles ancho", "3 chiles pasilla", "50 g de chocolate de mesa", "Almendras, ajonjolí y cacahuate"],
-    "pasos": ["Tuesta y fríe los chiles, frutos secos y especias por separado.", "Licúa todo con caldo de pollo hasta obtener una pasta.", "Fríe la pasta, agrega el chocolate y cocina a fuego bajo.", "Añade el pollo cocido y sirve con arroz y ajonjolí."]
+    "ingredientes": [
+      "1 pollo en piezas",
+      "4 chiles mulato",
+      "4 chiles ancho",
+      "3 chiles pasilla",
+      "50 g de chocolate de mesa",
+      "Almendras, ajonjolí y cacahuate"
+    ],
+    "pasos": [
+      "Tuesta y fríe los chiles, frutos secos y especias por separado.",
+      "Licúa todo con caldo de pollo hasta obtener una pasta.",
+      "Fríe la pasta, agrega el chocolate y cocina a fuego bajo.",
+      "Añade el pollo cocido y sirve con arroz y ajonjolí."
+    ]
   },
   {
     "id": 5,
     "nombre": "Cochinita pibil",
     "descripcion": "Cerdo marinado en achiote y naranja agria, envuelto en hoja de plátano y cocido lentamente.",
-    "imagen": "https://loremflickr.com/800/600/pork?lock=5",
+    "imagen": "/imagenes/1773851099837-ysb06a.webp",
     "region": "Yucatán",
     "categoria": "Platos fuertes",
     "tiempo_preparacion": 240,
     "dificultad": "Media",
     "porciones": 8,
-    "ingredientes": ["1.5 kg de pierna de cerdo", "3 cucharadas de pasta de achiote", "Jugo de naranja agria", "Hojas de plátano", "Cebolla morada", "Chile habanero"],
-    "pasos": ["Disuelve el achiote en el jugo de naranja con sal y ajo.", "Marina el cerdo toda la noche.", "Envuelve en hoja de plátano y hornea a 160 °C por 3 horas.", "Deshebra y sirve con cebolla morada encurtida."]
+    "ingredientes": [
+      "1.5 kg de pierna de cerdo",
+      "3 cucharadas de pasta de achiote",
+      "Jugo de naranja agria",
+      "Hojas de plátano",
+      "Cebolla morada",
+      "Chile habanero"
+    ],
+    "pasos": [
+      "Disuelve el achiote en el jugo de naranja con sal y ajo.",
+      "Marina el cerdo toda la noche.",
+      "Envuelve en hoja de plátano y hornea a 160 °C por 3 horas.",
+      "Deshebra y sirve con cebolla morada encurtida."
+    ]
   },
   {
     "id": 6,
     "nombre": "Enchiladas suizas",
     "descripcion": "Tortillas rellenas de pollo, bañadas en salsa verde cremosa y gratinadas con queso.",
-    "imagen": "https://loremflickr.com/800/600/enchiladas?lock=6",
+    "imagen": "/imagenes/Enchiladas-Suizas.jpg",
     "region": "Ciudad de México",
     "categoria": "Platos fuertes",
     "tiempo_preparacion": 50,
     "dificultad": "Fácil",
     "porciones": 4,
-    "ingredientes": ["12 tortillas de maíz", "2 pechugas de pollo cocidas", "500 g de tomatillo", "200 ml de crema", "Queso Chihuahua", "Chile serrano"],
-    "pasos": ["Prepara la salsa verde con la crema.", "Pasa las tortillas por aceite caliente y rellénalas de pollo.", "Acomódalas en un refractario y baña con la salsa.", "Cubre con queso y gratina 10 minutos."]
+    "ingredientes": [
+      "12 tortillas de maíz",
+      "2 pechugas de pollo cocidas",
+      "500 g de tomatillo",
+      "200 ml de crema",
+      "Queso Chihuahua",
+      "Chile serrano"
+    ],
+    "pasos": [
+      "Prepara la salsa verde con la crema.",
+      "Pasa las tortillas por aceite caliente y rellénalas de pollo.",
+      "Acomódalas en un refractario y baña con la salsa.",
+      "Cubre con queso y gratina 10 minutos."
+    ]
   },
   {
     "id": 7,
     "nombre": "Sopa de tortilla",
     "descripcion": "Caldo de jitomate con chile pasilla, tiras de tortilla fritas, aguacate, queso y crema.",
-    "imagen": "https://loremflickr.com/800/600/tomato,soup?lock=7",
+    "imagen": "/imagenes/sopa-de-tortilla.webp",
     "region": "Centro del país",
     "categoria": "Sopas y caldos",
     "tiempo_preparacion": 40,
     "dificultad": "Fácil",
     "porciones": 4,
-    "ingredientes": ["6 tortillas en tiras", "4 jitomates", "2 chiles pasilla", "1 litro de caldo de pollo", "Aguacate", "Queso panela y crema"],
-    "pasos": ["Fríe las tiras de tortilla hasta que doren.", "Licúa jitomate, ajo y cebolla y fríe la mezcla.", "Agrega el caldo y hierve 15 minutos.", "Sirve con tortilla, aguacate, queso y chile pasilla frito."]
+    "ingredientes": [
+      "6 tortillas en tiras",
+      "4 jitomates",
+      "2 chiles pasilla",
+      "1 litro de caldo de pollo",
+      "Aguacate",
+      "Queso panela y crema"
+    ],
+    "pasos": [
+      "Fríe las tiras de tortilla hasta que doren.",
+      "Licúa jitomate, ajo y cebolla y fríe la mezcla.",
+      "Agrega el caldo y hierve 15 minutos.",
+      "Sirve con tortilla, aguacate, queso y chile pasilla frito."
+    ]
   },
   {
     "id": 8,
     "nombre": "Guacamole",
     "descripcion": "Aguacate machacado con cebolla, jitomate, cilantro, chile serrano y limón.",
-    "imagen": "https://loremflickr.com/800/600/guacamole?lock=8",
+    "imagen": "/imagenes/Guacamole.jpg",
     "region": "Todo el país",
     "categoria": "Entradas",
     "tiempo_preparacion": 15,
     "dificultad": "Fácil",
     "porciones": 4,
-    "ingredientes": ["3 aguacates Hass", "1/2 cebolla", "1 jitomate", "1 chile serrano", "Cilantro", "Jugo de 1 limón"],
-    "pasos": ["Pica finamente la cebolla, el jitomate, el chile y el cilantro.", "Machaca los aguacates con un tenedor o molcajete.", "Mezcla todo con el limón y sal al gusto.", "Sirve de inmediato con totopos."]
+    "ingredientes": [
+      "3 aguacates Hass",
+      "1/2 cebolla",
+      "1 jitomate",
+      "1 chile serrano",
+      "Cilantro",
+      "Jugo de 1 limón"
+    ],
+    "pasos": [
+      "Pica finamente la cebolla, el jitomate, el chile y el cilantro.",
+      "Machaca los aguacates con un tenedor o molcajete.",
+      "Mezcla todo con el limón y sal al gusto.",
+      "Sirve de inmediato con totopos."
+    ]
   },
   {
     "id": 9,
     "nombre": "Tamales de rajas con queso",
     "descripcion": "Masa de maíz rellena de chile poblano y queso, envuelta en hoja de maíz y cocida al vapor.",
-    "imagen": "https://loremflickr.com/800/600/tamales?lock=9",
+    "imagen": "/imagenes/tamales_de_rajas_recipe.jpg",
     "region": "Oaxaca",
     "categoria": "Antojitos",
     "tiempo_preparacion": 120,
     "dificultad": "Media",
     "porciones": 12,
-    "ingredientes": ["1 kg de masa para tamales", "250 g de manteca", "Hojas de maíz remojadas", "5 chiles poblanos", "300 g de queso Oaxaca", "Caldo"],
-    "pasos": ["Bate la manteca hasta que esponje y mezcla con la masa y el caldo.", "Asa los chiles, pélalos y córtalos en rajas.", "Rellena las hojas con masa, rajas y queso.", "Cuece al vapor por 70 minutos."]
+    "ingredientes": [
+      "1 kg de masa para tamales",
+      "250 g de manteca",
+      "Hojas de maíz remojadas",
+      "5 chiles poblanos",
+      "300 g de queso Oaxaca",
+      "Caldo"
+    ],
+    "pasos": [
+      "Bate la manteca hasta que esponje y mezcla con la masa y el caldo.",
+      "Asa los chiles, pélalos y córtalos en rajas.",
+      "Rellena las hojas con masa, rajas y queso.",
+      "Cuece al vapor por 70 minutos."
+    ]
   },
   {
     "id": 10,
     "nombre": "Chiles en nogada",
     "descripcion": "Chile poblano relleno de picadillo con fruta, cubierto con salsa de nuez y granada.",
-    "imagen": "https://loremflickr.com/800/600/pomegranate?lock=10",
+    "imagen": "/imagenes/main-header.jpg",
     "region": "Puebla",
     "categoria": "Platos fuertes",
     "tiempo_preparacion": 180,
     "dificultad": "Difícil",
     "porciones": 6,
-    "ingredientes": ["6 chiles poblanos", "500 g de carne molida mixta", "Durazno, manzana y pera", "150 g de nuez de Castilla", "Queso de cabra", "1 granada"],
-    "pasos": ["Asa, desvena y pela los chiles.", "Cocina el picadillo con la fruta picada.", "Licúa la nuez con queso de cabra y leche para la nogada.", "Rellena los chiles, báñalos con nogada y decora con granada."]
+    "ingredientes": [
+      "6 chiles poblanos",
+      "500 g de carne molida mixta",
+      "Durazno, manzana y pera",
+      "150 g de nuez de Castilla",
+      "Queso de cabra",
+      "1 granada"
+    ],
+    "pasos": [
+      "Asa, desvena y pela los chiles.",
+      "Cocina el picadillo con la fruta picada.",
+      "Licúa la nuez con queso de cabra y leche para la nogada.",
+      "Rellena los chiles, báñalos con nogada y decora con granada."
+    ]
   },
   {
     "id": 11,
     "nombre": "Esquites",
     "descripcion": "Granos de elote cocidos con epazote, servidos con mayonesa, queso cotija, chile y limón.",
-    "imagen": "https://loremflickr.com/800/600/corn?lock=11",
+    "imagen": "/imagenes/esquites.webp",
     "region": "Todo el país",
     "categoria": "Antojitos",
     "tiempo_preparacion": 25,
     "dificultad": "Fácil",
     "porciones": 4,
-    "ingredientes": ["6 elotes", "Epazote", "2 cucharadas de mantequilla", "Mayonesa", "Queso cotija", "Chile en polvo y limón"],
-    "pasos": ["Desgrana los elotes.", "Cocina los granos con mantequilla, epazote y caldo 15 minutos.", "Sirve en vasos con mayonesa y queso.", "Termina con chile en polvo y limón."]
+    "ingredientes": [
+      "6 elotes",
+      "Epazote",
+      "2 cucharadas de mantequilla",
+      "Mayonesa",
+      "Queso cotija",
+      "Chile en polvo y limón"
+    ],
+    "pasos": [
+      "Desgrana los elotes.",
+      "Cocina los granos con mantequilla, epazote y caldo 15 minutos.",
+      "Sirve en vasos con mayonesa y queso.",
+      "Termina con chile en polvo y limón."
+    ]
   },
   {
     "id": 12,
     "nombre": "Birria de res",
     "descripcion": "Guiso de res en adobo de chiles secos y especias, cocido lentamente hasta que la carne se deshace.",
-    "imagen": "https://loremflickr.com/800/600/beef,stew?lock=12",
+    "imagen": "/imagenes/Birria.webp",
     "region": "Jalisco",
     "categoria": "Platos fuertes",
     "tiempo_preparacion": 270,
     "dificultad": "Media",
     "porciones": 8,
-    "ingredientes": ["2 kg de carne de res con hueso", "6 chiles guajillo", "3 chiles ancho", "Vinagre de manzana", "Comino, clavo y pimienta", "Tortillas de maíz"],
-    "pasos": ["Licúa los chiles con vinagre, ajo y especias.", "Unta la carne con el adobo y deja reposar toda la noche.", "Cuece a fuego bajo con un poco de agua por 4 horas.", "Sirve con su consomé, cebolla, cilantro y limón."]
+    "ingredientes": [
+      "2 kg de carne de res con hueso",
+      "6 chiles guajillo",
+      "3 chiles ancho",
+      "Vinagre de manzana",
+      "Comino, clavo y pimienta",
+      "Tortillas de maíz"
+    ],
+    "pasos": [
+      "Licúa los chiles con vinagre, ajo y especias.",
+      "Unta la carne con el adobo y deja reposar toda la noche.",
+      "Cuece a fuego bajo con un poco de agua por 4 horas.",
+      "Sirve con su consomé, cebolla, cilantro y limón."
+    ]
   },
   {
     "id": 13,
     "nombre": "Pan de elote",
     "descripcion": "Pastel suave y húmedo de granos de elote, con un sabor dulce y textura de migajón.",
-    "imagen": "https://loremflickr.com/800/600/cake?lock=13",
+    "imagen": "/imagenes/Pan-de-elote.avif",
     "region": "Centro del país",
     "categoria": "Postres",
     "tiempo_preparacion": 70,
     "dificultad": "Fácil",
     "porciones": 8,
-    "ingredientes": ["4 elotes tiernos", "1 lata de leche condensada", "3 huevos", "100 g de mantequilla", "1 cucharada de polvo para hornear", "Canela"],
-    "pasos": ["Calienta el horno a 180 °C.", "Licúa todos los ingredientes hasta obtener una mezcla uniforme.", "Vierte en un molde engrasado.", "Hornea 45 minutos y deja enfriar antes de desmoldar."]
+    "ingredientes": [
+      "4 elotes tiernos",
+      "1 lata de leche condensada",
+      "3 huevos",
+      "100 g de mantequilla",
+      "1 cucharada de polvo para hornear",
+      "Canela"
+    ],
+    "pasos": [
+      "Calienta el horno a 180 °C.",
+      "Licúa todos los ingredientes hasta obtener una mezcla uniforme.",
+      "Vierte en un molde engrasado.",
+      "Hornea 45 minutos y deja enfriar antes de desmoldar."
+    ]
   },
   {
     "id": 14,
     "nombre": "Arroz con leche",
     "descripcion": "Postre cremoso de arroz cocido en leche con canela, endulzado con azúcar y vainilla.",
-    "imagen": "https://loremflickr.com/800/600/rice,pudding?lock=14",
+    "imagen": "/imagenes/arroz-con-leche.avif",
     "region": "Todo el país",
     "categoria": "Postres",
     "tiempo_preparacion": 45,
     "dificultad": "Fácil",
     "porciones": 6,
-    "ingredientes": ["1 taza de arroz", "1 litro de leche", "1 raja de canela", "150 g de azúcar", "1 cucharadita de vainilla", "Pasas (opcional)"],
-    "pasos": ["Cuece el arroz en agua con canela hasta que esté suave.", "Agrega la leche y cocina a fuego bajo moviendo seguido.", "Añade azúcar y vainilla.", "Espesa unos 10 minutos y sirve tibio o frío."]
+    "ingredientes": [
+      "1 taza de arroz",
+      "1 litro de leche",
+      "1 raja de canela",
+      "150 g de azúcar",
+      "1 cucharadita de vainilla",
+      "Pasas (opcional)"
+    ],
+    "pasos": [
+      "Cuece el arroz en agua con canela hasta que esté suave.",
+      "Agrega la leche y cocina a fuego bajo moviendo seguido.",
+      "Añade azúcar y vainilla.",
+      "Espesa unos 10 minutos y sirve tibio o frío."
+    ]
   },
   {
     "id": 15,
     "nombre": "Agua de jamaica",
     "descripcion": "Bebida refrescante de flor de jamaica, de color rojo intenso y sabor ligeramente ácido.",
-    "imagen": "https://loremflickr.com/800/600/hibiscus,drink?lock=15",
+    "imagen": "/imagenes/Agua-de-Jamaica.jpg",
     "region": "Todo el país",
     "categoria": "Bebidas",
     "tiempo_preparacion": 20,
     "dificultad": "Fácil",
     "porciones": 8,
-    "ingredientes": ["2 tazas de flor de jamaica seca", "2 litros de agua", "1/2 taza de azúcar", "Hielo"],
-    "pasos": ["Hierve 1 litro de agua con la jamaica por 10 minutos.", "Cuela y disuelve el azúcar en el líquido caliente.", "Agrega el otro litro de agua fría.", "Sirve con mucho hielo."]
+    "ingredientes": [
+      "2 tazas de flor de jamaica seca",
+      "2 litros de agua",
+      "1/2 taza de azúcar",
+      "Hielo"
+    ],
+    "pasos": [
+      "Hierve 1 litro de agua con la jamaica por 10 minutos.",
+      "Cuela y disuelve el azúcar en el líquido caliente.",
+      "Agrega el otro litro de agua fría.",
+      "Sirve con mucho hielo."
+    ]
   }
 ]
